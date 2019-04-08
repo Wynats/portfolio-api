@@ -10,6 +10,6 @@ spring:
   mongodb:
    #uri: mongodb://wynats:atun3s@ds125574.mlab.com:25574/wynats
 
-   uri: mongodb://mongo:w7n4tS.@27017/portfolio/wynats
+   uri: mongodb://mongo:w7n4tS.@27017/wynats
 
-   database: wynats
+   database: portfolio
