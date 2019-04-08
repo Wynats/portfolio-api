@@ -9,5 +9,7 @@ spring:
    defaultMediaType: application/json
   mongodb:
    #uri: mongodb://wynats:atun3s@ds125574.mlab.com:25574/wynats
+
    uri: mongodb://mongo:27017/portfolio
+
    database: wynats
