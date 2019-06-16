@@ -8,6 +8,6 @@ spring:
   rest:
    defaultMediaType: application/json
   mongodb:
-   uri: mongodb://wynats:wynats@mongo:27017/portfolio #   mongodb://<dbuser>:<dbpassword>@ds125574.mlab.com:25574/wynats
-   database: portfolio
+   uri: mongodb://wynatsorg:wynatsAtunes2@ds135107.mlab.com:35107/wynats
+   database: wynats
 
