@@ -1,5 +1,9 @@
 package com.wynats.portfolio.entity;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -15,4 +19,5 @@ public class Worker {
 
 	private String name;
 	private String description;
+	private HashMap<String, Integer> skills;
 }
