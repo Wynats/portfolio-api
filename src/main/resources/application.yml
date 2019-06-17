@@ -8,6 +8,5 @@ spring:
   rest:
    defaultMediaType: application/json
   mongodb:
-   uri: mongodb://wynatsorg:wynatsAtunes2@ds135107.mlab.com:35107/wynats
-   database: wynats
-
+   uri: ${MONGO_DB_URI}
+   database: ${MONGO_DB_NAME}
