@@ -10,3 +10,11 @@ spring:
   mongodb:
    uri: mongodb://wynatsorg:wynatsAtunes2@ds135107.mlab.com:35107/wynats
    database: wynats
+  application:
+     name: wynats-portfolio-api
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka  
