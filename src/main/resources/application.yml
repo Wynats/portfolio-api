@@ -1,17 +1,19 @@
-
 # Server Configuration
 server:
-    port: 8081
-    
+  port: 8082
+  
+# Spring properties    
 spring:
- data: 
-  rest:
-   defaultMediaType: application/json
-  mongodb:
-   uri: mongodb://wynatsorg:wynatsAtunes2@ds135107.mlab.com:35107/wynats
-   database: wynats
   application:
-     name: wynats-portfolio-api
+    name: wynats-portfolio-api
+  data: 
+    rest:
+      defaultMediaType: application/json
+  mongodb:
+    uri: mongodb://wynatsorg:wynatsAtunes2@ds135107.mlab.com:35107/wynats?serverSelectionTimeoutMS=20000&connectTimeoutMS=20000
+    database: wynats
+    
+
 
 # Discovery Server Access
 eureka:
